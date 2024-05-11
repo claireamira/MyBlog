@@ -90,3 +90,29 @@ header ul li a:hover {
 header * {
     color: white;
 }
+
+@media only screen and (max-width:750px ){
+header ul{
+    width: 100%;
+    background:  rgb(31, 155, 177) ;
+}
+    header ul li{
+        width: 100%;
+    }
+header ul li ul{
+    position: static;
+    display: block;
+    width: 100%;
+    background: inherit;
+
+}
+header ul li ul li a {
+    padding: 10px;
+    color: white;
+    background: rgb(31, 155, 177) ;
+}
+header ul li ul li a.logout {
+    color: red;
+}
+    
+}
