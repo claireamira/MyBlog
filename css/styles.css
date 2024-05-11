@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(31, 155, 177);
+    height: 66px;
+}
+
+.logo span {
+    color: rgb(0, 247, 255);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: azure;
+    font-family: 'Lora';
+}
+
+.logo {
+    float: left;
+    height: inherit;
+    margin-left: 2rem;
+    font-family: 'Candal';
+
+}
+
+.nav {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+header ul li {
+    float: left;
+    position: relative;
+}
+
+header ul li ul {
+    position: absolute;
+    top: 66px;
+    right: 0px;
+    width: 180px;
+    display: none;
+}
+
+header ul li:hover ul {
+    display: block;
+}
+
+
+header ul li ul li {
+    width: 100%;
+}
+
+header ul li ul li a {
+    padding: 10px;
+    color: grey;
+    background: white;
+}
+
+header ul li ul li a:hover {
+    background: gainsboro;
+}
+
+header ul li a {
+    display: block;
+    padding: 21px;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+header ul li ul li a.logout {
+    color: red;
+}
+
+header ul li a:hover {
+    background: rgb(89, 89, 245);
+    transition: 0.5s;
+
+}
+
+.fa-bars {
+    display: none;
+}
+
+header * {
+    color: white;
+}
