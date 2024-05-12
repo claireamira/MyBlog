@@ -18,7 +18,7 @@
 
 .btn:hover {
     color: white;
-    background: rgb(48, 48, 252);
+    background:  rgb(26, 136, 139) ;  
 }
 .text-input{
     padding: .7rem 1rem;
@@ -32,6 +32,10 @@
     border: 1px solid lightgrey;
     font-size: 1.2em;
 }
+i{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 header {
     background-color: rgb(31, 155, 177);
@@ -42,7 +46,9 @@ header {
     color: rgb(0, 247, 255);
 }
 
+html,
 body {
+    height: 100%;
     padding: 0px;
     margin: 0px;
     background-color: azure;
@@ -125,13 +131,13 @@ header * {
 .content {
     width: 90%;
     margin: 30px auto 30px;
-    border: 1px solid red;
+    
 }
 
 .content .main-content {
     width: 70%;
     float: left;
-    border: 1px solid blue;
+    
 }
 
 .content .main-content .post {
@@ -159,7 +165,6 @@ header * {
 .content .side-bar {
     width: 30%;
     float: left;
-    border: 1px dashed green;
     height: 300px;
 }
 
@@ -198,7 +203,48 @@ header * {
     padding-left: 10px;
     transition: all 0.3sec;
 }
+/*Footer*/
+.footer{
+    background: black;
+    color: white;
+    height: 300px;
+}
+.footer .footer-content{
+    border: 1px solid red;
+    height: 300px;
+    display: flex;
+}
+.footer .footer-content .footer-section{
+    flex: 1;
+    padding: 25px;
+    border: 1px solid white;
+}
+.footer .footer-content .links ul a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+.footer .footer-content .contact-form .contact-input{
+    background: rgb(24, 21, 21);
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .9rem 1.4rem;
+    border: none;
+}
 
+
+
+
+
+
+
+
+
+
+/*Footer*/
 
 @media only screen and (max-width:750px) {
     header ul {
