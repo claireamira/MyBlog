@@ -203,21 +203,33 @@ header * {
     padding-left: 10px;
     transition: all 0.3sec;
 }
+.content .main-content.single{
+    background: white;
+    padding: 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+.content .side-bar.single{
+    padding: 0px 10px ;
+}
+
 /*Footer*/
 .footer{
     background: black;
     color: white;
     height: 300px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .footer .footer-content{
-    border: 1px solid red;
     height: 300px;
     display: flex;
 }
 .footer .footer-content .footer-section{
     flex: 1;
     padding: 25px;
-    border: 1px solid white;
 }
 .footer .footer-content .links ul a{
     display: block;
