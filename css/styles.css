@@ -20,6 +20,18 @@
     color: white;
     background: rgb(48, 48, 252);
 }
+.text-input{
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    color: grey;
+    line-height: 1.5rem;
+    font-family: 'lora', serif;
+    border: 1px solid lightgrey;
+    font-size: 1.2em;
+}
 
 header {
     background-color: rgb(31, 155, 177);
@@ -154,6 +166,39 @@ header * {
 .content .main-content .recent-post-title {
     margin: 20px;
 }
+.content .side-bar .section{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.content .side-bar .section .section-title{
+    margin-top: 10px 0px 10px 0px;
+}
+.content .side-bar .section.search{
+    margin-top: 80px;
+
+}
+.content .side-bar .section.topics ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;  
+    border-top: 1px solid lightgrey;  
+}
+.content .side-bar .section.topics ul li a{
+    display: block;
+    padding: 15px 0px 15px 0px ;
+    border-bottom: 1px solid lightgrey;
+    transition: all 0.3sec;
+    text-decoration: none;
+}
+.content .side-bar .section.topics ul li a:hover{
+    padding-left: 10px;
+    transition: all 0.3sec;
+}
+
 
 @media only screen and (max-width:750px) {
     header ul {
@@ -187,3 +232,4 @@ header * {
     .fa-bars {
         display: block;
     }
+} 
